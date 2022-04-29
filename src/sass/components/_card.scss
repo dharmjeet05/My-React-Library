@@ -1,0 +1,18 @@
+@use "../utilities/variables";
+
+.card {
+  width: 80%;
+  padding: 30px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  margin: 20px 0;
+
+  h2 {
+    text-align: end;
+    color: variables.$secondary-text;
+    font-weight: 500;
+    margin: 0;
+    animation: highOpacity 1s ease-in-out;
+  }
+}
